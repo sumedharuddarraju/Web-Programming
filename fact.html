@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Factorial using recursion</title>
+</head>
+<body>
+<h2>Factorial using recursion</h2>
+<script>
+function fact(n)
+{
+	if(n==0)
+	return 1;
+	else
+	return (n*fact(n-1));
+}
+var n=prompt("Enter n :");
+var res=fact(n);
+document.write("a is "+res);
+</script>
+</body>
+</html>
