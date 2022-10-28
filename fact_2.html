@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Factorial without recursion</title>
+</head>
+<body>
+<h2>Factorial without recursion</h2>
+<script>
+function fact(n)
+{
+	var res=1;
+	for(var i=1;i<=n;i++)
+	{
+		res=res*i;
+	}
+return res;
+}
+var n=prompt("Enter n :");
+var res=fact(n);
+document.write("a is "+res);
+</script>
+</body>
+</html>
